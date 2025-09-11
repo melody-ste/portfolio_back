@@ -32,6 +32,16 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "header": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }
